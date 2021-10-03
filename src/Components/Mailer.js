@@ -37,7 +37,7 @@ export default function Mailer () {
         <input type="email" name="user_email" className="form-control" />
 
         <label style={{color:"white"}}>Message</label>
-        <textarea type="message" rows="4" className="form-control" />
+        <textarea name="message" rows="4" className="form-control" />
         <input type="submit" value="Send" className="form-control btn btn-primary"
         style={{marginTop: "30px"}} />
       </form>
